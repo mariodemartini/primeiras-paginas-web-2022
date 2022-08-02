@@ -4,20 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Receitas da Vó</title>
-
+    <title>Receitas do Vô</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
   </head>
 
   <body>
     <header>
-      <img src="imagens/logo.jpg" alt="Logotipo receitas">
-
-      <h1>Receitas da Vó</h1>
-
-      <nav>
+       <h1>Receitas do Vô</h1>
+       <nav class="menu">
         <ul>
           <li>Todos</li>
           <li>Massas</li>
@@ -25,56 +22,66 @@
           <li>Sobremesas</li>
         </ul>
       </nav>
-
     </header>
 
     <main>
-      <div>
-        <img src="imagens/caneloni.jpg" alt="Caneloni">
-        <p>Caneloni de ricota</p>
-      </div>
 
-      <div>
-        <img src="imagens/cheesecake.jpg" alt="Cheesecake">
-        <p>Cheesecake</p>
-      </div>
+      <ul class="massas">
+        <li>
+          <img src="imagens/caneloni.jpg" alt="caneloni">
+          <p class="nome">Caneloni de Ricota</p>
+          <p class="categoria">Massas</p>
+        </li>
 
-      <div>
-        <img src="imagens/coxinha.jpg" alt="Coxinha de frango">
-        <p>Coxinha de frango</p>
-      </div>
+        <li>
+          <img src="imagens/espagueti.jpg" alt="espagueti">
+          <p class="nome">Espagueti à Bolonhesa</p>
+          <p class="categoria">Massas</p>
+        </li>
 
-      <div>
-        <img src="imagens/espagueti.jpg" alt="Macarronada">
-        <p>Espagueti bolonhesa</p>
-      </div>
+        <li>
+          <img src="imagens/nhoque.jpg" alt="nhoque">
+          <p class="nome">Nhoque molho vermelho</p>
+          <p class="categoria">Massas</p>
+        </li>
+      </ul>
 
-      <div>
-        <img src="imagens/pastel.jpg" alt="Pastel">
-        <p>Pastel</p>
-      </div>
+      <ul class="salgados">
+        <li>
+          <img src="imagens/coxinha.jpg" alt="coxinha">
+          <p>Coxinha de frango</p>
+          <p>Salgados</p>
+        </li>
 
-      <div>
-        <img src="imagens/pudim-tradicional.jpg" alt="Pudim">
-        <p>Pudim tradicional</p>
-      </div>
+        <li>
+          <img src="imagens/pao-queijo.jpg" alt="pao de queijo">
+          <p>Pão de Queijo</p>
+          <p>Salgados</p>
+        </li>
 
-      <div>
-        <img src="imagens/lasanha.jpg" alt="Lasanha">
-        <p>Lasanha bolonhesa</p>
-      </div>
+        <li>
+          <img src="imagens/pastel.jpg" alt="pastel">
+          <p>Pastel</p>
+          <p>Salgados</p>
+        </li>
+      </ul>
 
-      <div>
-        <img src="imagens/pudim-napolitano.jpg" alt="Pudim napolitano">
-        <p>Pudim napolitano</p>
-      </div>
+      <ul class="sobremesas">
+        <li>
+          <img src="imagens/pudim-tradicional.jpg" alt="pudim">
+          <p>Pudim Tradicional</p>
+          <p>Sobremesas</p>
+        </li>
 
-      <div>
-        <img src="imagens/pao-queijo.jpg" alt="Pao de queijo">
-        <p>Pão de queijo</p>
-      </div>
+        <li>
+          <img src="imagens/pudim-napolitano.jpg" alt="pudim napolitano">
+          <p>Pudim Napolitano</p>
+          <p>Sobremesas</p>
+        </li>
+      </ul>
 
     </main>
-    
+
   </body>
+
 </html>

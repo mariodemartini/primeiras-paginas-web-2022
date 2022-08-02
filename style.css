@@ -1,12 +1,50 @@
-@charset "UTF-8";
-
 *{
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color: #f5f0f0fd;
-    width: auto;
+header{
+    background-color: rgb(248, 47, 47);
 }
-#F20707
+
+header h1{
+    padding: 30px;
+    text-align: left;
+    font-size: 3rem;
+    color: white;
+}
+
+.menu ul{
+    background-color: rgba(248, 192, 192, 0.884);
+    padding: 10px 0 10px 30px;
+    text-align: left;
+}
+
+.menu li{
+    display: inline;  
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(245, 22, 22);
+    font-size: 1.5em;    
+}
+
+.menu li:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+main{
+    width: 940px;
+}
+
+.massas li, .salgados li, .sobremesas li{
+    display: inline-block;
+	vertical-align: top;
+	margin: 2% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
