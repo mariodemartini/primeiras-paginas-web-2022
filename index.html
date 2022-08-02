@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Receitas do Vô</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/icon_cake.png" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
   </head>
 
-  <body>
+  <body class="fixa">
     <header>
-       <h1>Receitas do Vô</h1>
-       <nav class="menu">
-        <ul>
+       <div id="principal">
+         <img src="imagens/logo.jpg" alt="logotipo">
+         <h1>Receitas do Vô</h1>
+       </div>
+       <nav>
+        <ul id="categorias">
           <li>Todos</li>
           <li>Massas</li>
           <li>Salgados</li>
@@ -24,61 +27,79 @@
       </nav>
     </header>
 
-    <main>
+    <main class="conteudo">
 
-      <ul class="massas">
-        <li>
-          <img src="imagens/caneloni.jpg" alt="caneloni">
-          <p class="nome">Caneloni de Ricota</p>
+      <div class="massas">
+        <img src="imagens/caneloni.jpg" alt="caneloni">
+        <div class="descricao">
+          <h3 class="nome">Caneloni de Ricota</h3>
           <p class="categoria">Massas</p>
-        </li>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-        <li>
-          <img src="imagens/espagueti.jpg" alt="espagueti">
-          <p class="nome">Espagueti à Bolonhesa</p>
+      <div class="massas">
+        <img src="imagens/espagueti.jpg" alt="espagueti">
+        <div class="descricao">
+          <h3 class="nome">Espagueti à Bolonhesa</h3>
           <p class="categoria">Massas</p>
-        </li>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-        <li>
-          <img src="imagens/nhoque.jpg" alt="nhoque">
-          <p class="nome">Nhoque molho vermelho</p>
+      <div class="massas">
+        <img src="imagens/nhoque.jpg" alt="nhoque">
+        <div class="descricao">
+          <h3 class="nome">Nhoque molho vermelho</h3>
           <p class="categoria">Massas</p>
-        </li>
-      </ul>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-      <ul class="salgados">
-        <li>
-          <img src="imagens/coxinha.jpg" alt="coxinha">
-          <p>Coxinha de frango</p>
-          <p>Salgados</p>
-        </li>
+      <div class="salgados">
+        <img src="imagens/coxinha.jpg" alt="coxinha">
+        <div class="descricao">
+          <h3 class="nome">Coxinha de Frango</h3>
+          <p class="categoria">Salgados</p>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-        <li>
-          <img src="imagens/pao-queijo.jpg" alt="pao de queijo">
-          <p>Pão de Queijo</p>
-          <p>Salgados</p>
-        </li>
+      <div class="salgados">
+        <img src="imagens/pao-queijo.jpg" alt="pão de queijo">
+        <div class="descricao">
+          <h3 class="nome">Pão de Queijo</h3>
+          <p class="categoria">Salgados</p>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-        <li>
-          <img src="imagens/pastel.jpg" alt="pastel">
-          <p>Pastel</p>
-          <p>Salgados</p>
-        </li>
-      </ul>
+      <div class="salgados">
+        <img src="imagens/pastel.jpg" alt="pastel">
+        <div class="descricao">
+          <h3 class="nome">Pastel</h3>
+          <p class="categoria">Salgados</p>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-      <ul class="sobremesas">
-        <li>
-          <img src="imagens/pudim-tradicional.jpg" alt="pudim">
-          <p>Pudim Tradicional</p>
-          <p>Sobremesas</p>
-        </li>
+      <div class="sobremesa">
+        <img src="imagens/pudim-tradicional.jpg" alt="pudim tradicional">
+        <div class="descricao">
+          <h3 class="nome">Pudim Tradicional</h3>
+          <p class="categoria">Sobremesas</p>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
-        <li>
-          <img src="imagens/pudim-napolitano.jpg" alt="pudim napolitano">
-          <p>Pudim Napolitano</p>
-          <p>Sobremesas</p>
-        </li>
-      </ul>
+      <div class="sobremesa">
+        <img src="imagens/pudim-napolitano.jpg" alt="pudim napolitano">
+        <div class="descricao">
+          <h3 class="nome">Pudim Napolitano</h3>
+          <p class="categoria">Sobremesas</p>
+          <i class="bi bi-heart heart-icon"></i>
+        </div>
+      </div>
 
     </main>
 
