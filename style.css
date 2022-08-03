@@ -70,7 +70,7 @@ body{
     grid-gap: 20px;
 }
 
-.receita{
+.receita-massas, .receita-salgados, .receita-sobremesa{
     min-width: 300px;
     max-width: 400px;
     height: 250px;

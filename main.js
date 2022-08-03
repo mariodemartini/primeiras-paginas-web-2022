@@ -1,1 +1,0 @@
-const listaDeBotoes = document.querySelectorAll('.botao');
