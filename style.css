@@ -40,13 +40,23 @@ body{
     color: white;
 }
 
+.botao{
+    border: none;
+    background-color: rgb(248, 47, 47);
+    color: white;
+    margin: 1px 0 0 0;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
 .itens-menu{
     display: inline;
     padding: 0 0 5px 20px;
     font-size: 1.5em;
 }
 
-.itens-menu:hover{
+.itens-menu, .botao:hover{
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -81,6 +91,6 @@ body{
     font-weight: bold;
 }
 
-.nome, .categoria{
+.nome, .massas, .sobremesas, .salgados{
     margin: 5px 0 5px 10px;
 }
