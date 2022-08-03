@@ -1,1 +1,1 @@
-const selecionarReceitas = document.querySelectorAll('.botao');
+const listaDeBotoes = document.querySelectorAll('.botao');
