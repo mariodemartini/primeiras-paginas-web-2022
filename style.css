@@ -64,7 +64,7 @@ body{
 .conteudo{
     width: 80%;
     margin: 120px auto;
-    display: grid;
+    display: flex;
     place-items:  center;
     grid-template-columns: 1fr 1fr; 
     grid-gap: 20px;
@@ -93,13 +93,4 @@ body{
 
 .nome, .massas, .sobremesas, .salgados{
     margin: 5px 0 5px 10px;
-}
-
-/* .ativa{
-    background-color: rgb(241, 15, 15);
-    display: block;
-} */
-
-.hide{
-    display: none;
 }
