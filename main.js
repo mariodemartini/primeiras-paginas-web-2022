@@ -31,6 +31,6 @@ function marcarFavorito(evento){
 
 }
 
-iconeFavorito.forEach(function(){
-    iconeFavorito.onclick = marcarFavorito;
+iconeFavorito.forEach(icone => {
+    icone.onclick = marcarFavorito;
 })
