@@ -21,3 +21,16 @@ function selecionaSobremesas(){
     document.getElementById("salgados").style.display = "none";
     document.getElementById("sobremesas").style.display = "flex";
 }
+
+const iconeFavorito = document.querySelectorAll('.receita i');
+
+function marcarFavorito(evento){
+    const icone = evento.target;
+    icone.classList.toggle("fa-regular");
+    icone.classList.toggle("fa-solid");
+
+}
+
+iconeFavorito.forEach(function(){
+    iconeFavorito.onclick = marcarFavorito;
+})
